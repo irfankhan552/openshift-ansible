@@ -1,0 +1,6 @@
+---
+- include: evaluate_groups.yml
+
+- include: ../openshift-node/config.yml
+  vars:
+    openshift_deployment_type: "{{ deployment_type }}"

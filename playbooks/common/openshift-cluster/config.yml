@@ -1,0 +1,10 @@
+---
+- include: evaluate_groups.yml
+
+- include: ../openshift-docker/config.yml
+
+- include: ../openshift-etcd/config.yml
+
+- include: ../openshift-master/config.yml
+
+- include: ../openshift-node/config.yml
